@@ -8,7 +8,7 @@ QT       += core
 
 QT       -= gui
 
-TARGET = tennisgame
+TARGET = output
 CONFIG   += console
 CONFIG   -= app_bundle
 

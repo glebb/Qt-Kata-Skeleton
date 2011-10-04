@@ -1,2 +1,2 @@
-Skeleton Qt project with gtest 1.6.0 for TennisKata
-Contains tests project (compiles also gtest) and tennisgame project.
+Skeleton Qt project with gtest 1.6.0 for TDD katas
+Contains tests project (compiles also gtest) and empty project (for implementation).
