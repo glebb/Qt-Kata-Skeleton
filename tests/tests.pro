@@ -17,7 +17,11 @@ LIBS += -L../3dparty/gtest-1.6.0/gtest_qmake/lib -lgtest
 INCLUDEPATH += ../3dparty/gtest-1.6.0/include
 
 SOURCES += \
-    spec_tennis_game.cpp
+    first_test.cpp
+
+
+
+
 
 
 
