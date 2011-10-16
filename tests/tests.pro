@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core
+QT       += core testlib
 QT       -= gui
 
 TARGET = tests
@@ -13,8 +13,8 @@ CONFIG   -= app_bundle
 
 TEMPLATE = app
 
-LIBS += -L../3dparty/gtest-1.6.0/gtest_qmake/lib -lgtest
-INCLUDEPATH += ../3dparty/gtest-1.6.0/include
+LIBS += -L../3rdparty/gtest-1.6.0/gtest_qmake/lib -lgtest
+INCLUDEPATH += ../3rdparty/gtest-1.6.0/include
 
 SOURCES += \
     first_test.cpp
